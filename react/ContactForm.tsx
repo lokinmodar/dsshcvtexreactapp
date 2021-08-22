@@ -16,7 +16,7 @@ const ContactForm = (): JSX.Element => {
 
     if (!validation) return
 
-    window.localStorage.setItem('E-mail', JSON.stringify(inputs.name))
+    window.localStorage.setItem('Name', JSON.stringify(inputs.name))
     window.localStorage.setItem('E-mail', JSON.stringify(inputs.email))
     await axios
       .post(`https://1841m6ur62.execute-api.sa-east-1.amazonaws.com/api`, {
