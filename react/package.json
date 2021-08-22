@@ -1,5 +1,5 @@
 {
-  "name": "lead-form-component-dss",
+  "name": "leads-form-component-dss",
   "version": "0.0.1",
   "scripts": {
     "test": "vtex-test-tools test"
