@@ -1,7 +1,7 @@
 {
   "vendor": "hiringcoders2021",
   "name": "lead-form-component-dss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "Dante Form Component",
   "description": "Form component for VTEX Hiring Coders 2 Challenge",
   "builders": {
