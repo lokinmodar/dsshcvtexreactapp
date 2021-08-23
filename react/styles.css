@@ -1,30 +1,23 @@
 article {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 2%;
-
-
 }
 
 form {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
   border-radius: 6px;
   color: #fff;
-
-
 }
 
 
 
 h1 {
-  font-family: 'Yanone Kaffeesatz', 'Noto Mono', 'Arial Narrow', sans-serif;
+  font-family: 'Open Sans', 'Noto Mono', 'Arial Narrow', sans-serif;
   font-weight: 400;
   font-size: 28px;
   color: #333;
@@ -32,16 +25,16 @@ h1 {
 }
 
 h2 {
-  font-family: 'Yanone Kaffeesatz', 'Noto Mono', 'Arial Narrow', sans-serif;
+  font-family: 'Open Sans', 'Noto Mono', 'Arial Narrow', sans-serif;
   font-weight: 400;
   font-size: 22px;
   color: #333;
 }
 
 label {
-  text-align: left;
+
   width: 90%;
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
 }
 
@@ -54,8 +47,17 @@ input[type="email"] {
   font-size: 14px;
 }
 
+
+input[type="text"] {
+  width: 80%;
+
+  border: 2px solid #fff;
+
+  font-size: 14px;
+}
+
 button {
-  font-family: 'Yanone Kaffeesatz', 'Noto Mono', 'Arial Narrow', sans-serif;
+  font-family: 'Open Sans', 'Noto Mono', 'Arial Narrow', sans-serif;
   font-weight: 400;
   font-size: 22px;
   width: 120px;
