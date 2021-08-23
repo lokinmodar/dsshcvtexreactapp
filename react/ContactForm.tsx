@@ -39,7 +39,7 @@ const ContactForm = (): JSX.Element => {
     window.localStorage.setItem('E-mail', JSON.stringify(inputs.email))
     await axios
       .post(
-        `https://1841m6ur62.execute-api.sa-east-1.amazonaws.com/api`,
+        ` https://1841m6ur62.execute-api.sa-east-1.amazonaws.com/api/send`,
         {
           name: inputs.name,
           email: inputs.email,
